@@ -7,18 +7,19 @@ import './App.css';
 import Create from './componet/Create'
 import Edit from './componet/Edit';
 import Home from './componet/Home';
+import Form from './componet/Form';
 
 function App() {
   return (
     <div className='App'>
-
-      <Router>
+      <Form />
+      {/* <Router>
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/create' element={<Create />} />
           <Route path='/edit' element={<Edit />} />
         </Routes>
-      </Router>
+      </Router> */}
     </div>
   );
 
